@@ -1,0 +1,120 @@
+/* ===== Global Styles ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(to right, #eef5ff, #f9fcff);
+    color: #2c3e50;
+    line-height: 1.6;
+    padding: 25px;
+}
+
+/* ===== Header ===== */
+
+header {
+    background: linear-gradient(135deg, #0f4c81, #1e88e5);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+/* ===== Navigation ===== */
+
+nav {
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+nav a {
+    color: #0f4c81;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 10px 18px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: #1e88e5;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* ===== Content Section ===== */
+
+div {
+    background: white;
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+div:hover {
+    transform: translateY(-5px);
+}
+
+/* ===== Headings ===== */
+
+h2 {
+    color: #1565c0;
+    margin-bottom: 15px;
+    border-left: 5px solid #1e88e5;
+    padding-left: 12px;
+}
+
+/* ===== Paragraphs ===== */
+
+p {
+    color: rgb(12 0 0 / 0.92);
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* ===== Buttons (Optional) ===== */
+
+button {
+    background: #1e88e5;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0d47a1;
+    transform: scale(1.05);
+}
+
+/* ===== Footer (Optional) ===== */
+
+footer {
+    margin-top: 30px;
+    background: #0f4c81;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
